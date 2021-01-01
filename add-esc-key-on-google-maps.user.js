@@ -6,6 +6,7 @@
 // @version     0.20201231.0
 // @author      Gea-Suan Lin <gslin@gslin.org>
 // @description Add Esc key on Google Maps
+// @license     MIT
 // ==/UserScript==
 
 (() => {
