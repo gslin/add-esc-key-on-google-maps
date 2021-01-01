@@ -5,7 +5,7 @@
 // @grant       none
 // @version     0.20210101.1
 // @author      Gea-Suan Lin <gslin@gslin.org>
-// @description Add Esc key on Google Maps
+// @description Add Esc key on Google Maps for better UX.
 // @license     MIT
 // ==/UserScript==
 

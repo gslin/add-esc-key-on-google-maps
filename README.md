@@ -1,6 +1,6 @@
 # add-esc-key-on-google-maps
 
-Add <kbd>Esc</kbd> key into Google Maps.
+Add <kbd>Esc</kbd> key into Google Maps for better UX.
 
 # License
 
