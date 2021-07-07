@@ -3,7 +3,7 @@
 // @namespace   https://github.com/gslin/add-esc-key-on-google-maps
 // @match       https://www.google.com/maps*
 // @grant       none
-// @version     0.20210101.2
+// @version     0.20210707.0
 // @author      Gea-Suan Lin <gslin@gslin.org>
 // @description Add Esc key on Google Maps for better UX.
 // @license     MIT
@@ -23,7 +23,7 @@
             }
 
             // Comment page (works only in traditional chinese environment).
-            el = document.querySelector('button[aria-label="返回"]');
+            el = document.querySelector('button[aria-label="Back"], button[aria-label="返回"]');
             if (el && el.offsetHeight > 0 && el.offsetWidth > 0) {
                 el.click();
                 return;
