@@ -3,7 +3,7 @@
 // @namespace   https://github.com/gslin/add-esc-key-on-google-maps
 // @match       https://www.google.com/maps*
 // @grant       none
-// @version     0.20210912.0
+// @version     0.20220102.0
 // @author      Gea-Suan Lin <gslin@gslin.org>
 // @description Add Esc key on Google Maps for better UX.
 // @license     MIT
@@ -17,6 +17,7 @@
         if (27 !== ev.keyCode) {
             return;
         }
+        console.debug('Application "Add Esc key on Google Maps" esc key detected.');
 
         // User page.
         let el = document.querySelector('button[aria-label="Close"], button[aria-label="關閉"]');
@@ -39,4 +40,6 @@
             return;
         }
     }, true);
+
+    console.debug('Application "Add Esc key on Google Maps" installed.');
 })();
